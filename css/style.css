@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+}
+p{
+	margin: 0;
+	font-size: 28px;
+}
+
+.mainbox {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.column{
+	flex-basis: 33.33%;
+	padding: 40px 20px;
+	display: flex;
+	
+
+}
+.div-3, .div-1, .div-2 {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 20px 22px 16px -13px #383c41d4;
+    border-radius: 15px;
+    transition-duration: .4s;
+}
+.div-1:hover, .div-2:hover, .div-3:hover{
+	background-color: seagreen;
+	color: #fff;
+	
+}
